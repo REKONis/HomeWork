@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="tab-icon.ico" type="image/x-icon">
+  <title>Lesson 11</title>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>Ваши данные</legend>
+      <label for="#name">Ваше имя</label>
+      <input type="text" id="name">
+      <label for="#city">Город доставки</label>
+      <select name="город доставки" id="city" required>
+        <option value="" disabled selected>-- Не выбрано --</option>
+        <option value="Хромидастия">Хромидастия</option>
+        <option value="Зефирополь">Зефирополь</option>
+        <option value="Глицинерия">Глицинерия</option>
+        <option value="Ксеноария">Ксеноария</option>
+        <option value="Аурория">Аурория</option>
+        <option value="Эклектиктон">Эклектиктон</option>
+        <option value="Лунополис">Лунополис</option>
+        <option value="Аргенталия">Аргенталия</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <legend>Данные вашего питомца</legend>
+      <label for="pet">Кличка питомца</label>
+      <input type="text" id="pet">
+    </fieldset>
+    <button type="reset">Сброс</button>
+    <button type="submit">Отправить</button>
+  </form>
+</body>
+
+</html>
