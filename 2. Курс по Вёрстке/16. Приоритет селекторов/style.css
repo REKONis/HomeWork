@@ -1,0 +1,32 @@
+p {
+  font-size: 72px;
+  color: blue;
+}
+
+[id] {
+  color: yellowgreen /* !important */;
+}
+
+#ppp {
+  color: cyan;
+}
+
+p.pp {
+  color: deepskyblue !important;
+}
+
+p#ppp {
+  color: dodgerblue;
+}
+
+#ppp {
+  color: darkcyan;
+}
+
+.pp {
+  color: aqua;
+}
+
+p {
+  color: cornflowerblue;
+}
