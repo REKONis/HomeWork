@@ -1,0 +1,32 @@
+h1, h2 {
+  font-size: 32px;
+}
+
+.title1 {
+  color: #007c00;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title2 {
+  color: #007c00;
+  font-family: Geneva, Tahoma, sans-serif;
+}
+
+.title3 {
+  color: #007c00;
+  font-family: Tahoma, sans-serif;
+}
+
+.title4 {
+  color: #007c00;
+  font-family: sans-serif;
+}
+
+p {
+  text-indent: 25px;
+  color: gray;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}

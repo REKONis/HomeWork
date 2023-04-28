@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Pacifico";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Pacifico-Regular"),
+    url(../fonts/Pacifico-Regular.woff2) format("woff2"), 
+    url(../fonts/Pacifico-Regular.woff) format("woff"), 
+    url(../fonts/Pacifico-Regular.eot) format("eot");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Caveat";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Caveat-Regular"),
+    url(../fonts/Caveat-Regular.woff2) format("woff2"), 
+    url(../fonts/Caveat-Regular.woff) format("woff"), 
+    url(../fonts/Caveat-Regular.eot) format("eot");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Caveat";
+  font-weight: 700;
+  font-style: normal;
+  src: local("Caveat-Bold"),
+    url(../fonts/Caveat-Bold.woff2) format("woff2"), 
+    url(../fonts/Caveat-Bold.woff) format("woff"), 
+    url(../fonts/Caveat-Bold.eot) format("eot");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  font-weight: 300;
+  font-style: normal;
+  src: local("Comfortaa-Light"),
+    url(../fonts/Comfortaa-Light.woff2) format("woff2"), 
+    url(../fonts/Comfortaa-Light.woff) format("woff"), 
+    url(../fonts/Comfortaa-Light.eot) format("eot");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  font-weight: 700;
+  font-style: normal;
+  src: local("Comfortaa-Bold"),
+    url(../fonts/Comfortaa-Bold.woff2) format("woff2"), 
+    url(../fonts/Comfortaa-Bold.woff) format("woff"), 
+    url(../fonts/Comfortaa-Bold.eot) format("eot");
+  font-display: swap;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.5em;
+}
+
+.paragraph1 {
+  font-family: "Pacifico";
+}
+
+.paragraph2 {
+  font-family: "Caveat";
+}
+.paragraph3 {
+  font-family: "Caveat";
+  font-weight: 700;
+}
+.paragraph4 {
+font-family: "Comfortaa";
+}
+
+.paragraph5 {
+font-family: "Comfortaa";
+font-weight: 700;
+}
+
+.paragraph6 {
+  font-family: "Rubik Wet Paint";
+}
+
+.paragraph7 {
+  font-family: "Press Start 2P";
+}
