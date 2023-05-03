@@ -1,0 +1,31 @@
+.block {
+  width: 45vw;
+  height: 75vh;
+  box-shadow: 0px 0px 10px #555555;
+  display: inline-block;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.block1 {
+  background-image: url("../images/dog.jpg"), linear-gradient(#7979ff, #79ff79);
+  background-position: center center; /* Можно указать одно значение */
+  background-size: auto; /* Можно указать 2 значения: по горизонтали и по вертикали */
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.block2 {
+  background: url("../images/dog.jpg") 50% 50% / auto no-repeat, linear-gradient(#7979ff, #ff7979);
+}
+
+.block3 {
+  background-image: url("../images/dog.jpg"), radial-gradient(#79ff79 10%, #7979ff 90%);
+  background-position: 50% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.block4 {
+  background: url("../images/dog.jpg") center center / auto no-repeat, radial-gradient(#ff7979 10%, #7979ff 90%);
+}

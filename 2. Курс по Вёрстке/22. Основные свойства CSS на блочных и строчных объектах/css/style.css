@@ -1,0 +1,50 @@
+.text0 {
+  padding: 25px 25px 0px;
+  max-width: 50vw;
+  height: 100px;
+  overflow: auto;
+}
+
+/* Дальше не ДЗ */
+.group1 {
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  border: 5px dashed #000;
+}
+
+.group2 {
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  border: 5px dotted #000;
+}
+
+.group3 {
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  border: 5px double #000;
+}
+
+.group4 {
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  border: 5px solid #000;
+  box-shadow: 15px 20px 10px 3px #838383;
+}
+
+.img1 {
+  min-width: 300px;
+  max-height: 150px;
+  overflow: scroll;
+  opacity: 0.9;
+}
+
+.text1 {
+  max-width: 200px;
+  max-height: 150px;
+  overflow: auto;
+  display: inline-block;
+}

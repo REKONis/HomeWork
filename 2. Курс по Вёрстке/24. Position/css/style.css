@@ -1,0 +1,10 @@
+.block {
+  border: 2px solid darkblue;
+  box-shadow: 0 0 12px 7px darkblue;
+  border-radius: 8px;
+  height: 250px;
+  position: fixed;
+  right: 50px;
+  bottom: 100px;
+  left: 50%;
+}
