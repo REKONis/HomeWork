@@ -1,0 +1,19 @@
+.wrapper {
+  padding: 20px;
+}
+
+.flexbox {
+  height: 30vh;
+  background: #B38Df9;
+  border: 10px solid #6a4696;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexbox__item {
+  background: #ecec9a;
+  border: 5px solid #978209;
+  height: 200px;
+  width: 200px;
+}
