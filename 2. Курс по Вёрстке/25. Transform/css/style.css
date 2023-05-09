@@ -1,0 +1,19 @@
+.block1 {
+  background: rgb(0, 70, 128);
+  width: 15vw;
+  height: 15vw;
+  transform: skew(30deg) translate(10vw);
+}
+
+.space {
+  height: 10vw;
+  background: lightgrey;
+}
+
+.block2 {
+  background: rgb(0, 70, 128);
+  width: 15vw;
+  height: 15vw;
+  transform: rotate(-30deg) translate(10vw);
+  transform-origin: 20vw 10vw;
+}
