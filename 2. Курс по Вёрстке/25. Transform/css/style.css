@@ -1,6 +1,0 @@
-.block {
-  background: rgb(0, 70, 128);
-  width: 300px;
-  height: 300px;
-  transform: skew(30deg) translate(10vw);
-}
