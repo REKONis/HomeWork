@@ -82,7 +82,6 @@
   background-color: deepskyblue;
   animation: rotate 3s linear infinite reverse, 
   planet-color 1s ease-in infinite alternate;
-  /* animation: name duration timing-function delay alternate-reverse  fill-mode; */
 }
 
 .orbit2__satellite {
